@@ -330,7 +330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Temperature
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -483,7 +483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443806205}
   m_Layer: 5
-  m_Name: Status (3)
+  m_Name: TemperatureStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -779,6 +779,7 @@ GameObject:
   - component: {fileID: 583272312}
   - component: {fileID: 583272314}
   - component: {fileID: 583272313}
+  - component: {fileID: 583272315}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -843,6 +844,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583272311}
   m_CullTransparentMesh: 1
+--- !u!114 &583272315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583272311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9416aea5305241bb3d85be6731760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &589801748
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,7 +866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 589801749}
   m_Layer: 5
-  m_Name: Status (2)
+  m_Name: FunStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1050,6 +1063,7 @@ GameObject:
   - component: {fileID: 643711134}
   - component: {fileID: 643711136}
   - component: {fileID: 643711135}
+  - component: {fileID: 643711137}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1114,6 +1128,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 643711133}
   m_CullTransparentMesh: 1
+--- !u!114 &643711137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643711133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9416aea5305241bb3d85be6731760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &655421173
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,7 +1197,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Food
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1307,7 +1333,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Fun
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1546,7 +1572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1063434761}
   m_Layer: 5
-  m_Name: Status
+  m_Name: FoodStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1670,7 +1696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1235672816}
   m_Layer: 5
-  m_Name: Status (1)
+  m_Name: CleanStatus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +1780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Clean
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1844,6 +1870,7 @@ GameObject:
   - component: {fileID: 1473749447}
   - component: {fileID: 1473749449}
   - component: {fileID: 1473749448}
+  - component: {fileID: 1473749450}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -1908,6 +1935,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473749446}
   m_CullTransparentMesh: 1
+--- !u!114 &1473749450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473749446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9416aea5305241bb3d85be6731760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1481634573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,6 +2079,7 @@ GameObject:
   - component: {fileID: 1500046610}
   - component: {fileID: 1500046612}
   - component: {fileID: 1500046611}
+  - component: {fileID: 1500046613}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -2104,6 +2144,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500046609}
   m_CullTransparentMesh: 1
+--- !u!114 &1500046613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500046609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9416aea5305241bb3d85be6731760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1674080073
 GameObject:
   m_ObjectHideFlags: 0
@@ -2493,7 +2545,7 @@ GameObject:
   - component: {fileID: 2025662394}
   - component: {fileID: 2025662395}
   m_Layer: 5
-  m_Name: StatusBar
+  m_Name: StatusBarContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2519,7 +2571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -179}
+  m_AnchoredPosition: {x: 0, y: -160}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2025662395
@@ -2558,6 +2610,7 @@ GameObject:
   - component: {fileID: 2142061928}
   - component: {fileID: 2142061927}
   - component: {fileID: 2142061926}
+  - component: {fileID: 2142061930}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2650,6 +2703,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2142061930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142061925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc0dfdcd8cfa4c41948f887c0e7ba05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodBarController: {fileID: 1473749450}
+  cleanBarController: {fileID: 643711137}
+  funBarController: {fileID: 583272315}
+  temperatureBarController: {fileID: 1500046613}
+  foodButton: {fileID: 2016493180}
+  cleanButton: {fileID: 1886898584}
+  funButton: {fileID: 526910169}
+  temperatureButton: {fileID: 1481634575}
+  currentFood: 50
+  maxFood: 100
+  currentClean: 100
+  maxClean: 100
+  currentFun: 100
+  maxFun: 100
+  isHeaterOn: 0
+  currentTemperature: 25
+  minTemperature: 20
+  maxTemperature: 30
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
