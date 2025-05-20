@@ -7,6 +7,7 @@ public class Food : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("BottomCollider"))
         {
+            GameObject.Find("Sonic").GetComponent<SonicMinigame1>().LostFood();
             Destroy(gameObject);
         }
     }
